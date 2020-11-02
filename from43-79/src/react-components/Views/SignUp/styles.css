@@ -1,0 +1,34 @@
+/* Styles for the SignUp view React component */
+
+.signUp-form {
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.signUp-form .MuiGrid-root {
+  text-align: center;
+}
+
+.logo-image-signUp {
+  width: 340px;
+}
+
+.MuiButton-root.signUp-form__submit-button:hover {
+  background-color: #b0bec5;
+}
+
+.MuiButton-root.signUp-form__submit-button {
+  background-color: #cfd8dc;
+  width: 80px;
+  height: 40px;
+}
+
+.signUp-form__button-grid {
+  line-height: 5;
+}
+
+.signUp-check {
+  color: red;
+}

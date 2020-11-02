@@ -1,0 +1,59 @@
+/* Styles for the detailed journal view React component */
+.poster_link{
+    margin-left: 100px;
+}
+
+.MuiPaper-root.post__paper{
+    margin: 20px;
+}
+
+#poster_name{
+    font-size: 20px;
+    font-family: "Expletus Sans";
+}
+
+.whole_detailed_journal{
+    margin-left: 150px;
+    width: 1000px;
+}
+
+#journalInfo{
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+.first_label{
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Expletus Sans', sans-serif;
+    color: #424242;
+}
+
+.basicInfo_detailed_journal{
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+
+.moreInfo_detailed_post{
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+#moreDescription{
+    margin-bottom: 40px;
+}
+
+.label{
+    font-weight: bold;
+    font-family: 'Expletus Sans', sans-serif;
+    color: #424242;
+}
+
+.detailContent{
+    font-family: "Expletus Sans";
+}
+
+.detailedJournalButtons{
+    margin-left: 900px;
+    margin-bottom: 80px;
+}

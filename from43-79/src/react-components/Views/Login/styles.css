@@ -1,0 +1,45 @@
+/* Styles for the Login view React component */
+
+.login-form {
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.login-form .MuiGrid-root {
+  text-align: center;
+}
+
+.logo-image-login {
+  height: 75px;
+  width: 340px;
+}
+
+.MuiButton-root.login-form__button:hover {
+  background-color: #b0bec5;
+}
+
+.MuiButton-root.login-form__button {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  width: 80px;
+  height: 55px;
+  background-color: #cfd8dc;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.login__button-link {
+  text-decoration: none;
+}
+
+.login-form__button-grid {
+  line-height: 5;
+}
+
+.login-check {
+  color: red;
+}

@@ -1,0 +1,99 @@
+/* Styles for the detailed question view React component */
+
+.poster_link{
+    margin-left: 100px;
+}
+
+.MuiPaper-root.post__paper{
+    margin: 20px;
+}
+
+#poster_name{
+    font-size: 18px;
+    font-family: "Expletus Sans";
+}
+
+.replierInfo{
+    margin-left: 500px;
+}
+
+.whole_detailed_question{
+    margin-left: 150px;
+    width: 1000px;
+}
+
+.whole_detailed_comments{
+    margin-left: 200px;
+    width: 900px;
+}
+
+.add_new_reply{
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 200px;
+}
+
+.replyInput{
+    height: 80px;
+    width: 350px;
+}
+
+#replybutton_pos{
+    margin-left: 400px;
+}
+
+.editComment_postButton{
+    width: 100px;
+    height: 50px;
+}
+
+.singleReply{
+    margin-left: 50px;
+}
+
+.replyContent{
+    font-size: 22px;
+}
+
+#questionInfo{
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+.first_label{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Expletus Sans', sans-serif;
+    color: #424242;
+}
+
+.basicInfo_detailed_question{
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+
+.moreInfo_detailed_question{
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+#moreDescription{
+    margin-bottom: 40px;
+}
+
+.label{
+    font-weight: bold;
+    font-family: 'Expletus Sans', sans-serif;
+    color: #424242;
+}
+
+.detailContent{
+    font-family: "Expletus Sans";
+}
+
+.detailedQuestionButtons{
+    margin-left: 900px;
+    margin-bottom: 80px;
+}

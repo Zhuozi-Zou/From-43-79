@@ -1,0 +1,36 @@
+/* Styles for the EditPost view React component */
+
+.input{
+    margin-top: 30px;
+}
+
+#briefInfo{
+    width: 600px;
+    height: 80px;
+}
+
+#details{
+    width: 600px;
+    height: 200px;
+}
+
+.editPostButtons{
+    justify-content: center;
+    display: flex;
+    margin-left: 350px;
+    margin-bottom: 50px;
+}
+
+.editPost_postButton .MuiButton-label {
+    font-size: 25px;
+    color: #424242;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: bold;
+}
+
+.editPost_deleteButton .MuiButton-label {
+    font-size: 25px;
+    color: #424242;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: bold;
+}

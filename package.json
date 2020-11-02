@@ -1,0 +1,24 @@
+{
+  "name": "from43-79_server",
+  "version": "0.1.0",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.20.0",
+    "connect-multiparty": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.6",
+    "validator": "^13.0.0"
+  },
+  "scripts": {
+    "setup": "npm install && cd from43-79 && npm install && cd ..",
+    "start": "node server.js",
+    "build-run": "cd from43-79 && npm run build && cd .. && node server.js",
+    "heroku-postbuild": "cd from43-79 && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

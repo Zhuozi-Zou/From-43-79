@@ -1,0 +1,44 @@
+/* Styles for the MyAccount React component */
+h1 {
+  margin-left: 70px;
+  font-family: 'Expletus Sans', sans-serif;
+  color: #424242;
+}
+
+.myAccount-fields {
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.myAccount-fields .MuiGrid-root {
+  text-align: center;
+}
+
+.MuiTextField-root.myAccount-info {
+  min-width: 500px;
+  /*overflow: auto;*/
+  height: auto;
+}
+
+.myAccount__button-link {
+  text-decoration: none;
+}
+
+.MuiButton-root.myAccount__button {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.MuiButton-root.myAccount__button:hover {
+  border-radius: 10px;
+}
+
+.myAccount__button.red {
+  color: red;
+}

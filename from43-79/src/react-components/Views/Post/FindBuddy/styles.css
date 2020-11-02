@@ -1,0 +1,71 @@
+/* Styles for the FindBuddy view React component */
+
+h1 {
+    margin-left: 70px;
+    font-family: 'Expletus Sans', sans-serif;
+    color: #424242;
+}
+
+.post-buttons {
+    justify-content: center;
+    display: flex;
+}
+
+.post__button-link {
+    text-decoration: none;
+}
+
+.MuiButton-root.post__button {
+    width: 200px;
+    height: 60px;
+    margin: 20px 40px;
+}
+
+.MuiButton-root.post__button:hover {
+    background-color: #B7CDDE;
+    border-radius: 10px;
+}
+
+.post__button .MuiButton-label {
+    font-size: 25px;
+    color: #424242;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: bold;
+}
+
+.post {
+    list-style: none;
+    margin: 20px;
+}
+
+.MuiPaper-root.posts__paper {
+    background-color: #fafafa;
+}
+
+.MuiTypography-root.post__details {
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 450px;
+}
+
+.details {
+    width: 500px;
+}
+
+.MuiButton-root.details__button {
+    width: 180px;
+    height: 60px;
+    margin-left: 300px;
+}
+
+.MuiButton-root.details__button:hover {
+    background-color: #B7CDDE;
+    border-radius: 10px;
+}
+
+.details__button .MuiButton-label {
+    font-size: 25px;
+    color: #424242;
+    font-family: "Amatic SC", sans-serif;
+}

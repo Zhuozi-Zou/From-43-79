@@ -1,0 +1,70 @@
+/* Styles for the Header React component */
+.logo-image {
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+.banner {
+  background: url("./static/banner.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.header {
+  margin-left: 50px;
+}
+
+.header-logo {
+  top: 20px;
+  height: 100px;
+  position: absolute;
+}
+
+.header-buttons {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 300px;
+}
+
+.header__button-link {
+  text-decoration: none;
+}
+
+.MuiButton-root.header__button {
+  width: 150px;
+  height: 60px;
+}
+
+.MuiButton-root.header__button:hover {
+  background-color: rgba(183, 205, 222, 0.5);
+  border-radius: 10px;
+}
+
+.header__button .MuiButton-label {
+  color: #424242;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.MuiButton-root.cur__button {
+  width: 200px;
+  height: 60px;
+  background-color: rgba(189, 189, 189, 0.5);
+  border-radius: 10px;
+}
+
+.MuiButton-root.cur__button:hover {
+  background-color: rgba(183, 205, 222, 0.51);
+  border-radius: 10px;
+}
+
+.cur__button .MuiButton-label {
+  color: #424242;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
