@@ -110,12 +110,6 @@ Open [http://localhost:5000](http://localhost:5000) (if not opened automatically
 You should be able to see the login page.
 
 ## Other Information (please read)
-**We are submitting one and only one day late.** 
-
-After the deadline, before the presentation, there are some really minor changes to the code.
-It might look like a lot from the git log, but they are only some display or date difference changes, 
-so that the presentation can go smoothly. **We assure that there are NO major changes in features etc.**
-
 There is another README.md file in the subdirectory `from43-79`. 
 It is irrelevant to the project and is automatically created when the React App is created.
 It is kept for our own future use. 
